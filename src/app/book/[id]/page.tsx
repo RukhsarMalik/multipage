@@ -72,7 +72,7 @@ const BookDetail = () => {
   
     return (
       <section className="container mx-auto py-16 text-center">
-        <h1 className="text-3xl font-bold text-gray-800 mb-4">{book.title}</h1>
+        <h1 className="text-3xl font-bold bg-white text-gray-800 mb-4">{book.title}</h1>
         <Image src={book.imageUrl} alt={book.title} width={400} height={600} className="mx-auto rounded-md mb-4" />
         <p className="text-lg text-gray-600 mb-4">{book.description}</p>
         <p className="text-xl font-semibold text-gray-800">Author: {book.author}</p>
